@@ -37,6 +37,7 @@ img{
 }
 `
 export const NavLink = styled(Link)`
+display: flex;
 
 color: var(--text, #373737);
 font-family: Montserrat;
@@ -46,7 +47,12 @@ font-weight: 600;
 line-height: normal;
 text-decoration: none;
 `
-
+export const NavDisplay = styled.div`
+display:flex ;
+justify-content: center;
+align-items: center;
+text-align: center;
+`
 // export const BgWrap = styled.div`
 // background-image: url(${backimg});
 // background-position: center;

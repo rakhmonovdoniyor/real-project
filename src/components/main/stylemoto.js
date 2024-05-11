@@ -71,7 +71,7 @@ export const CardContainer = styled.div`
 `;
 
 export const ImgWrapper = styled.div`
-  flex: ${(props) => (props.$Vmenu ? "1" : "1")};
+  flex: ${(props) => (props.$Vmenu ? "2" : "1")};
   display: flex;
   justify-content: center;
 `;
@@ -81,7 +81,7 @@ export const InforWrapper = styled.div`
   flex-direction: column;
 `;
 export const InfoTitle = styled.div`
-  flex: 1;
+  flex: 2;
   display: flex;
   justify-content: space-between;
 `;
@@ -112,3 +112,5 @@ export const Button = styled.button`
   font-size: 18px;
   cursor: pointer;
 `;
+
+

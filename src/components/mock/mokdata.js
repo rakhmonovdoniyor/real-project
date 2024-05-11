@@ -1,5 +1,17 @@
 // import img from "../../assets/image 2 (2).png";
-import img from "../../assets/22 1.png"
+import img from "../../assets/caravan-8.webp"
+import img2 from "../../assets/caravan-7.jpg"
+import img3 from "../../assets/img-4.png"
+import img4 from "../../assets/carvan-3.jpg"
+import img5 from "../../assets/img-9.png"
+import img6 from "../../assets/img-7.webp"
+import img7 from "../../assets/img-10.png"
+import img8 from "../../assets/img-17.png"
+import img9 from "../../assets/img-15.png"
+import img10 from "../../assets/img-11.webp"
+import img11 from "../../assets/img-16.png"
+import img12 from "../../assets/img-22.webp"
+
 
 export const Campcar = {
   maindata: [
@@ -7,169 +19,171 @@ export const Campcar = {
       id: 1,
       car: {
         photo: `${img}`,
-        name: "르벤투스S+",
+        name: "Trailblazer",
         cost: "90,200,000",
-        type: "르노마스터",
-        license: "1종 보통",
+        type: "Senior License",
+        license: "Senior License",
         people: "4인",
         date: "22년 03월",
-        company: "다온티앤티",
+        company: "ExploreXpedition RVs",
         location: "수도권",
-        // star: `${imstart}`,
+       desc:{
+        comfort: "Size and Layout: Larger camping cars generally offer more space and comfort, but they can be more challenging to maneuver and park. The layout of the interior also plays a crucial role in comfort. Well-designed layouts optimize space for living, sleeping, cooking, and storage."
+       }
         
       },
     },
     {
       id: 2,
       car: {
-        photo: `${img}`,
-        name: "르벤투스680S",
+        photo: `${img2}`,
+        name: "Prestige Pathfinder",
         cost: "93,700,000",
         type: "르노마스터",
         license: "1종 보통",
         people: "4인",
         date: "22년 03월",
-        company: "다온티앤티",
+        company: "CampVoyage",
         location: "수도권",
       },
     },
     {
       id: 3,
       car: {
-        photo: `${img}`,
-        name: "르벤투스680",
+        photo: `${img3}`,
+        name: "Luxe Rover",
         cost: "93,700,000",
         type: "르노마스터",
         license: "1종 보통",
         people: "5인",
         date: "22년 03월",
-        company: "다온티앤티",
+        company: "CampVoyage",
         location: "수도권",
       },
     },
     {
       id: 4,
       car: {
-        photo: `${img}`,
-        name: "르벤투스 차박S",
+        photo: `${img4}`,
+        name: "Adventure Van ",
         cost: "66,100,000",
         type: "르노마스터",
         license: "1종 보통",
         people: "4인",
         date: "22년 03월",
-        company: "다온티앤티",
+        company: "TrailBliss RVs",
         location: "수도권",
       },
     },
     {
       id: 5,
       car: {
-        photo: `${img}`,
-        name: "포스650",
+        photo: `${img5}`,
+        name: "Camp Cruiser",
         cost: "85,300,000",
         type: "포터",
         license: "2종 보통",
         people: "6인",
         date: "22년 03월",
-        company: "다온티앤티",
+        company: "SummitSavvy",
         location: "수도권",
       },
     },
     {
       id: 6,
       car: {
-        photo: `${img}`,
-        name: "포스560",
+        photo: `${img6}`,
+        name: "WanderWagon",
         cost: "93,700,000",
         type: "포터",
         license: "2종 보통",
         people: "6인",
         date: "22년 03월",
-        company: "다온티앤티",
+        company: "SummitSavvy",
         location: "수도권",
       },
     },
     {
       id: 7,
       car: {
-        photo: `${img}`,
-        name: "올카",
+        photo: `${img7}`,
+        name: "TrekMobile",
         cost: "62,600,000",
         type: "포터",
         license: "2종 보통",
         people: "3인",
         date: "22년 03월",
-        company: "다온티앤티",
+        company: "railTrekker ",
         location: "수도권",
       },
     },
     {
       id: 8,
       car: {
-        photo: `${img}`,
-        name: "DS9eR+a",
+        photo: `${img8}`,
+        name: "Summit Seeker",
         cost: "77,900,000",
         type: "봉고",
         license: "2종 보통",
         people: "6인",
         date: "22년 03월",
-        company: "제일모빌",
+        company: "railTrekker ",
         location: "수도권",
       },
     },
     {
       id: 9,
       car: {
-        photo: `${img}`,
-        name: "DS9eU+a",
+        photo: `${img9}`,
+        name: "Explorer Express",
         cost: "75,200,000",
         type: "봉고",
         license: "2종 보통",
         people: "5인",
         date: "22년 03월",
-        company: "제일모빌",
+        company: "TrailBliss RVs",
         location: "수도권",
       },
     },
     {
       id: 10,
       car: {
-        photo: `${img}`,
+        photo: `${img10}`,
         name: "ACIER 790R",
         cost: "122,800,000",
         type: "이베코 뉴데일리",
         license: "1종 보통",
         people: "6인",
         date: "22년 03월",
-        company: "제일모빌",
+        company: "CampCraft ",
         location: "수도권",
       },
     },
     {
-      id: 12,
+      id: 11,
       car: {
-        photo: `${img}`,
+        photo: `${img11}`,
         name: "ACIER 900 Deluxe",
         cost: "142,800,000",
         type: "이베코 뉴데일리",
         license: "1종 보통",
         people: "6인",
         date: "22년 03월",
-        company: "제일모빌",
+        company: "railTrekker ",
         location: "수도권",
       },
     },
     {
-      id: 16,
+      id: 12,
       car: {
-        photo: `${img}`,
+        photo: `${img12}`,
         name: "ST-7",
         cost: "89,000,000",
         type: "봉고",
         license: "2종 보통",
         people: "5인",
         date: "22년 03월",
-        company: "스타모빌",
+        company: "CampCraft ",
         location: " 경상권",
       },
     },
