@@ -31,7 +31,8 @@ background-image: ${(props) => {
     }
   }};
 
-   background-size: 100% 100%;
+   background-size: cover;
+   background-position: 100%;
   background-repeat: no-repeat; 
   width: 100%;
 height: 500px;

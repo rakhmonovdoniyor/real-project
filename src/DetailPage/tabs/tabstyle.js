@@ -92,3 +92,11 @@ display: flex;
 gap: 30px;
 padding-top: 10px;
 `
+
+export const BtnHover =styled.div`
+padding-left: 90px;
+:hover {
+    background-color: blue;
+    color: white;
+}
+`

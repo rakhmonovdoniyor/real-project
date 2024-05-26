@@ -27,6 +27,12 @@ import img24 from "../../assets/ausedcar/images (8).jpeg"
 // import img26 from "../../assets/img-26.png"
 // import img3 from "../../assets/img-26.png"
 
+import inside1 from "../../assets/camp id/image 6 (2).png"
+import inside2 from "../../assets/camp id/image 7 (1).png"
+import  inside3 from "../../assets/camp id/image 8 (1).png"
+import  doors from "../../assets/camp id/image 9.png"
+import heat from "../../assets/camp id/image 10.png"
+
 export const UsedCarCampcar = {
   maindata: [
     {
@@ -40,8 +46,24 @@ export const UsedCarCampcar = {
         people: "4인",
         date: "22년 03월",
         company: "다온티앤티",
-        location: "수도권",
+        
         // star: `${imstart}`,
+        location: "수도권",
+        view: "234" ,
+      
+        desc: {
+          comfort1: "Size and Layout: Larger camping cars generally offer more space and comfort, but they can be more challenging to maneuver and park. The layout of the interior also plays a crucial role in comfort. Well-designed layouts optimize space for living, sleeping, cooking, and storage. Maintaining a comfortable temperature inside the camping car is important, especially during extreme weather conditions. Climate control systems such as air conditioning and heating ensure that occupants can stay cool in hot weather and warm in cold weather",
+          cmfphoto: `${inside1}`,
+          comfort2: "Sleeping Arrangements: Comfortable sleeping arrangements are essential for a good night's rest. This may include comfortable mattresses, adjustable beds, and adequate bedding. Some camping cars offer various sleeping options, such as fold-out beds, bunk beds, or convertible dinettes.",
+          cmfphoto2: `${inside2}`,
+          comfort3: "Safety Features: Safety should always be a priority, so camping cars should be equipped with essential safety features such as smoke detectors, carbon monoxide detectors, fire extinguishers, and reliable locks on doors and windows",
+          cmfphoto3: `${inside3}`,
+          doors: "Cab Doors: In motorhomes or RVs built on truck or van chassis, there are typically doors leading from the living area into the cab where the driver and passenger seats are located. These doors allow easy access between the living space and the driving area.",
+          cmfphoto4: `${doors}`,
+          heating: "Propane Furnace: Many camping cars are equipped with propane furnaces that provide efficient heating. These furnaces use propane gas to produce heat, which is distributed throughout the vehicle via ducts and vents. They are often controlled by a thermostat, allowing you to set the desired temperature.",
+          heatphoto: `${heat}`,
+      }
+        
         
       },
     },
@@ -57,6 +79,20 @@ export const UsedCarCampcar = {
         date: "22년 03월",
         company: "다온티앤티",
         location: "수도권",
+        view: "234" ,
+      
+        desc: {
+          comfort1: "Size and Layout: Larger camping cars generally offer more space and comfort, but they can be more challenging to maneuver and park. The layout of the interior also plays a crucial role in comfort. Well-designed layouts optimize space for living, sleeping, cooking, and storage. Maintaining a comfortable temperature inside the camping car is important, especially during extreme weather conditions. Climate control systems such as air conditioning and heating ensure that occupants can stay cool in hot weather and warm in cold weather",
+          cmfphoto: `${inside1}`,
+          comfort2: "Sleeping Arrangements: Comfortable sleeping arrangements are essential for a good night's rest. This may include comfortable mattresses, adjustable beds, and adequate bedding. Some camping cars offer various sleeping options, such as fold-out beds, bunk beds, or convertible dinettes.",
+          cmfphoto2: `${inside2}`,
+          comfort3: "Safety Features: Safety should always be a priority, so camping cars should be equipped with essential safety features such as smoke detectors, carbon monoxide detectors, fire extinguishers, and reliable locks on doors and windows",
+          cmfphoto3: `${inside3}`,
+          doors: "Cab Doors: In motorhomes or RVs built on truck or van chassis, there are typically doors leading from the living area into the cab where the driver and passenger seats are located. These doors allow easy access between the living space and the driving area.",
+          cmfphoto4: `${doors}`,
+          heating: "Propane Furnace: Many camping cars are equipped with propane furnaces that provide efficient heating. These furnaces use propane gas to produce heat, which is distributed throughout the vehicle via ducts and vents. They are often controlled by a thermostat, allowing you to set the desired temperature.",
+          heatphoto: `${heat}`,
+      }
       },
     },
     {
@@ -71,6 +107,20 @@ export const UsedCarCampcar = {
         date: "22년 03월",
         company: "다온티앤티",
         location: "수도권",
+        view: "234" ,
+      
+        desc: {
+          comfort1: "Size and Layout: Larger camping cars generally offer more space and comfort, but they can be more challenging to maneuver and park. The layout of the interior also plays a crucial role in comfort. Well-designed layouts optimize space for living, sleeping, cooking, and storage. Maintaining a comfortable temperature inside the camping car is important, especially during extreme weather conditions. Climate control systems such as air conditioning and heating ensure that occupants can stay cool in hot weather and warm in cold weather",
+          cmfphoto: `${inside1}`,
+          comfort2: "Sleeping Arrangements: Comfortable sleeping arrangements are essential for a good night's rest. This may include comfortable mattresses, adjustable beds, and adequate bedding. Some camping cars offer various sleeping options, such as fold-out beds, bunk beds, or convertible dinettes.",
+          cmfphoto2: `${inside2}`,
+          comfort3: "Safety Features: Safety should always be a priority, so camping cars should be equipped with essential safety features such as smoke detectors, carbon monoxide detectors, fire extinguishers, and reliable locks on doors and windows",
+          cmfphoto3: `${inside3}`,
+          doors: "Cab Doors: In motorhomes or RVs built on truck or van chassis, there are typically doors leading from the living area into the cab where the driver and passenger seats are located. These doors allow easy access between the living space and the driving area.",
+          cmfphoto4: `${doors}`,
+          heating: "Propane Furnace: Many camping cars are equipped with propane furnaces that provide efficient heating. These furnaces use propane gas to produce heat, which is distributed throughout the vehicle via ducts and vents. They are often controlled by a thermostat, allowing you to set the desired temperature.",
+          heatphoto: `${heat}`,
+      }
       },
     },
     {
@@ -85,6 +135,20 @@ export const UsedCarCampcar = {
         date: "22년 03월",
         company: "다온티앤티",
         location: "수도권",
+        view: "234" ,
+      
+        desc: {
+          comfort1: "Size and Layout: Larger camping cars generally offer more space and comfort, but they can be more challenging to maneuver and park. The layout of the interior also plays a crucial role in comfort. Well-designed layouts optimize space for living, sleeping, cooking, and storage. Maintaining a comfortable temperature inside the camping car is important, especially during extreme weather conditions. Climate control systems such as air conditioning and heating ensure that occupants can stay cool in hot weather and warm in cold weather",
+          cmfphoto: `${inside1}`,
+          comfort2: "Sleeping Arrangements: Comfortable sleeping arrangements are essential for a good night's rest. This may include comfortable mattresses, adjustable beds, and adequate bedding. Some camping cars offer various sleeping options, such as fold-out beds, bunk beds, or convertible dinettes.",
+          cmfphoto2: `${inside2}`,
+          comfort3: "Safety Features: Safety should always be a priority, so camping cars should be equipped with essential safety features such as smoke detectors, carbon monoxide detectors, fire extinguishers, and reliable locks on doors and windows",
+          cmfphoto3: `${inside3}`,
+          doors: "Cab Doors: In motorhomes or RVs built on truck or van chassis, there are typically doors leading from the living area into the cab where the driver and passenger seats are located. These doors allow easy access between the living space and the driving area.",
+          cmfphoto4: `${doors}`,
+          heating: "Propane Furnace: Many camping cars are equipped with propane furnaces that provide efficient heating. These furnaces use propane gas to produce heat, which is distributed throughout the vehicle via ducts and vents. They are often controlled by a thermostat, allowing you to set the desired temperature.",
+          heatphoto: `${heat}`,
+      }
       },
     },
     {
@@ -99,6 +163,20 @@ export const UsedCarCampcar = {
         date: "22년 03월",
         company: "다온티앤티",
         location: "수도권",
+        view: "234" ,
+      
+        desc: {
+          comfort1: "Size and Layout: Larger camping cars generally offer more space and comfort, but they can be more challenging to maneuver and park. The layout of the interior also plays a crucial role in comfort. Well-designed layouts optimize space for living, sleeping, cooking, and storage. Maintaining a comfortable temperature inside the camping car is important, especially during extreme weather conditions. Climate control systems such as air conditioning and heating ensure that occupants can stay cool in hot weather and warm in cold weather",
+          cmfphoto: `${inside1}`,
+          comfort2: "Sleeping Arrangements: Comfortable sleeping arrangements are essential for a good night's rest. This may include comfortable mattresses, adjustable beds, and adequate bedding. Some camping cars offer various sleeping options, such as fold-out beds, bunk beds, or convertible dinettes.",
+          cmfphoto2: `${inside2}`,
+          comfort3: "Safety Features: Safety should always be a priority, so camping cars should be equipped with essential safety features such as smoke detectors, carbon monoxide detectors, fire extinguishers, and reliable locks on doors and windows",
+          cmfphoto3: `${inside3}`,
+          doors: "Cab Doors: In motorhomes or RVs built on truck or van chassis, there are typically doors leading from the living area into the cab where the driver and passenger seats are located. These doors allow easy access between the living space and the driving area.",
+          cmfphoto4: `${doors}`,
+          heating: "Propane Furnace: Many camping cars are equipped with propane furnaces that provide efficient heating. These furnaces use propane gas to produce heat, which is distributed throughout the vehicle via ducts and vents. They are often controlled by a thermostat, allowing you to set the desired temperature.",
+          heatphoto: `${heat}`,
+      }
       },
     },
     {
@@ -113,6 +191,20 @@ export const UsedCarCampcar = {
         date: "22년 03월",
         company: "다온티앤티",
         location: "수도권",
+        view: "234" ,
+      
+        desc: {
+          comfort1: "Size and Layout: Larger camping cars generally offer more space and comfort, but they can be more challenging to maneuver and park. The layout of the interior also plays a crucial role in comfort. Well-designed layouts optimize space for living, sleeping, cooking, and storage. Maintaining a comfortable temperature inside the camping car is important, especially during extreme weather conditions. Climate control systems such as air conditioning and heating ensure that occupants can stay cool in hot weather and warm in cold weather",
+          cmfphoto: `${inside1}`,
+          comfort2: "Sleeping Arrangements: Comfortable sleeping arrangements are essential for a good night's rest. This may include comfortable mattresses, adjustable beds, and adequate bedding. Some camping cars offer various sleeping options, such as fold-out beds, bunk beds, or convertible dinettes.",
+          cmfphoto2: `${inside2}`,
+          comfort3: "Safety Features: Safety should always be a priority, so camping cars should be equipped with essential safety features such as smoke detectors, carbon monoxide detectors, fire extinguishers, and reliable locks on doors and windows",
+          cmfphoto3: `${inside3}`,
+          doors: "Cab Doors: In motorhomes or RVs built on truck or van chassis, there are typically doors leading from the living area into the cab where the driver and passenger seats are located. These doors allow easy access between the living space and the driving area.",
+          cmfphoto4: `${doors}`,
+          heating: "Propane Furnace: Many camping cars are equipped with propane furnaces that provide efficient heating. These furnaces use propane gas to produce heat, which is distributed throughout the vehicle via ducts and vents. They are often controlled by a thermostat, allowing you to set the desired temperature.",
+          heatphoto: `${heat}`,
+      }
       },
     },
     {
@@ -127,6 +219,20 @@ export const UsedCarCampcar = {
         date: "22년 03월",
         company: "다온티앤티",
         location: "수도권",
+        view: "234" ,
+      
+        desc: {
+          comfort1: "Size and Layout: Larger camping cars generally offer more space and comfort, but they can be more challenging to maneuver and park. The layout of the interior also plays a crucial role in comfort. Well-designed layouts optimize space for living, sleeping, cooking, and storage. Maintaining a comfortable temperature inside the camping car is important, especially during extreme weather conditions. Climate control systems such as air conditioning and heating ensure that occupants can stay cool in hot weather and warm in cold weather",
+          cmfphoto: `${inside1}`,
+          comfort2: "Sleeping Arrangements: Comfortable sleeping arrangements are essential for a good night's rest. This may include comfortable mattresses, adjustable beds, and adequate bedding. Some camping cars offer various sleeping options, such as fold-out beds, bunk beds, or convertible dinettes.",
+          cmfphoto2: `${inside2}`,
+          comfort3: "Safety Features: Safety should always be a priority, so camping cars should be equipped with essential safety features such as smoke detectors, carbon monoxide detectors, fire extinguishers, and reliable locks on doors and windows",
+          cmfphoto3: `${inside3}`,
+          doors: "Cab Doors: In motorhomes or RVs built on truck or van chassis, there are typically doors leading from the living area into the cab where the driver and passenger seats are located. These doors allow easy access between the living space and the driving area.",
+          cmfphoto4: `${doors}`,
+          heating: "Propane Furnace: Many camping cars are equipped with propane furnaces that provide efficient heating. These furnaces use propane gas to produce heat, which is distributed throughout the vehicle via ducts and vents. They are often controlled by a thermostat, allowing you to set the desired temperature.",
+          heatphoto: `${heat}`,
+      }
       },
     },
     {
@@ -141,6 +247,20 @@ export const UsedCarCampcar = {
         date: "22년 03월",
         company: "제일모빌",
         location: "수도권",
+        view: "234" ,
+      
+        desc: {
+          comfort1: "Size and Layout: Larger camping cars generally offer more space and comfort, but they can be more challenging to maneuver and park. The layout of the interior also plays a crucial role in comfort. Well-designed layouts optimize space for living, sleeping, cooking, and storage. Maintaining a comfortable temperature inside the camping car is important, especially during extreme weather conditions. Climate control systems such as air conditioning and heating ensure that occupants can stay cool in hot weather and warm in cold weather",
+          cmfphoto: `${inside1}`,
+          comfort2: "Sleeping Arrangements: Comfortable sleeping arrangements are essential for a good night's rest. This may include comfortable mattresses, adjustable beds, and adequate bedding. Some camping cars offer various sleeping options, such as fold-out beds, bunk beds, or convertible dinettes.",
+          cmfphoto2: `${inside2}`,
+          comfort3: "Safety Features: Safety should always be a priority, so camping cars should be equipped with essential safety features such as smoke detectors, carbon monoxide detectors, fire extinguishers, and reliable locks on doors and windows",
+          cmfphoto3: `${inside3}`,
+          doors: "Cab Doors: In motorhomes or RVs built on truck or van chassis, there are typically doors leading from the living area into the cab where the driver and passenger seats are located. These doors allow easy access between the living space and the driving area.",
+          cmfphoto4: `${doors}`,
+          heating: "Propane Furnace: Many camping cars are equipped with propane furnaces that provide efficient heating. These furnaces use propane gas to produce heat, which is distributed throughout the vehicle via ducts and vents. They are often controlled by a thermostat, allowing you to set the desired temperature.",
+          heatphoto: `${heat}`,
+      }
       },
     },
     {
@@ -155,6 +275,20 @@ export const UsedCarCampcar = {
         date: "22년 03월",
         company: "제일모빌",
         location: "수도권",
+        view: "234" ,
+      
+        desc: {
+          comfort1: "Size and Layout: Larger camping cars generally offer more space and comfort, but they can be more challenging to maneuver and park. The layout of the interior also plays a crucial role in comfort. Well-designed layouts optimize space for living, sleeping, cooking, and storage. Maintaining a comfortable temperature inside the camping car is important, especially during extreme weather conditions. Climate control systems such as air conditioning and heating ensure that occupants can stay cool in hot weather and warm in cold weather",
+          cmfphoto: `${inside1}`,
+          comfort2: "Sleeping Arrangements: Comfortable sleeping arrangements are essential for a good night's rest. This may include comfortable mattresses, adjustable beds, and adequate bedding. Some camping cars offer various sleeping options, such as fold-out beds, bunk beds, or convertible dinettes.",
+          cmfphoto2: `${inside2}`,
+          comfort3: "Safety Features: Safety should always be a priority, so camping cars should be equipped with essential safety features such as smoke detectors, carbon monoxide detectors, fire extinguishers, and reliable locks on doors and windows",
+          cmfphoto3: `${inside3}`,
+          doors: "Cab Doors: In motorhomes or RVs built on truck or van chassis, there are typically doors leading from the living area into the cab where the driver and passenger seats are located. These doors allow easy access between the living space and the driving area.",
+          cmfphoto4: `${doors}`,
+          heating: "Propane Furnace: Many camping cars are equipped with propane furnaces that provide efficient heating. These furnaces use propane gas to produce heat, which is distributed throughout the vehicle via ducts and vents. They are often controlled by a thermostat, allowing you to set the desired temperature.",
+          heatphoto: `${heat}`,
+      }
       },
     },
     {
@@ -169,6 +303,20 @@ export const UsedCarCampcar = {
         date: "22년 03월",
         company: "제일모빌",
         location: "수도권",
+        view: "234" ,
+      
+        desc: {
+          comfort1: "Size and Layout: Larger camping cars generally offer more space and comfort, but they can be more challenging to maneuver and park. The layout of the interior also plays a crucial role in comfort. Well-designed layouts optimize space for living, sleeping, cooking, and storage. Maintaining a comfortable temperature inside the camping car is important, especially during extreme weather conditions. Climate control systems such as air conditioning and heating ensure that occupants can stay cool in hot weather and warm in cold weather",
+          cmfphoto: `${inside1}`,
+          comfort2: "Sleeping Arrangements: Comfortable sleeping arrangements are essential for a good night's rest. This may include comfortable mattresses, adjustable beds, and adequate bedding. Some camping cars offer various sleeping options, such as fold-out beds, bunk beds, or convertible dinettes.",
+          cmfphoto2: `${inside2}`,
+          comfort3: "Safety Features: Safety should always be a priority, so camping cars should be equipped with essential safety features such as smoke detectors, carbon monoxide detectors, fire extinguishers, and reliable locks on doors and windows",
+          cmfphoto3: `${inside3}`,
+          doors: "Cab Doors: In motorhomes or RVs built on truck or van chassis, there are typically doors leading from the living area into the cab where the driver and passenger seats are located. These doors allow easy access between the living space and the driving area.",
+          cmfphoto4: `${doors}`,
+          heating: "Propane Furnace: Many camping cars are equipped with propane furnaces that provide efficient heating. These furnaces use propane gas to produce heat, which is distributed throughout the vehicle via ducts and vents. They are often controlled by a thermostat, allowing you to set the desired temperature.",
+          heatphoto: `${heat}`,
+      }
       },
     },
     {
@@ -183,6 +331,20 @@ export const UsedCarCampcar = {
         date: "22년 03월",
         company: "제일모빌",
         location: "수도권",
+        view: "234" ,
+      
+        desc: {
+          comfort1: "Size and Layout: Larger camping cars generally offer more space and comfort, but they can be more challenging to maneuver and park. The layout of the interior also plays a crucial role in comfort. Well-designed layouts optimize space for living, sleeping, cooking, and storage. Maintaining a comfortable temperature inside the camping car is important, especially during extreme weather conditions. Climate control systems such as air conditioning and heating ensure that occupants can stay cool in hot weather and warm in cold weather",
+          cmfphoto: `${inside1}`,
+          comfort2: "Sleeping Arrangements: Comfortable sleeping arrangements are essential for a good night's rest. This may include comfortable mattresses, adjustable beds, and adequate bedding. Some camping cars offer various sleeping options, such as fold-out beds, bunk beds, or convertible dinettes.",
+          cmfphoto2: `${inside2}`,
+          comfort3: "Safety Features: Safety should always be a priority, so camping cars should be equipped with essential safety features such as smoke detectors, carbon monoxide detectors, fire extinguishers, and reliable locks on doors and windows",
+          cmfphoto3: `${inside3}`,
+          doors: "Cab Doors: In motorhomes or RVs built on truck or van chassis, there are typically doors leading from the living area into the cab where the driver and passenger seats are located. These doors allow easy access between the living space and the driving area.",
+          cmfphoto4: `${doors}`,
+          heating: "Propane Furnace: Many camping cars are equipped with propane furnaces that provide efficient heating. These furnaces use propane gas to produce heat, which is distributed throughout the vehicle via ducts and vents. They are often controlled by a thermostat, allowing you to set the desired temperature.",
+          heatphoto: `${heat}`,
+      }
       },
     },
     {
@@ -196,7 +358,21 @@ export const UsedCarCampcar = {
         people: "5인",
         date: "22년 03월",
         company: "스타모빌",
-        location: " 경상권",
+         location: "수도권",
+        view: "234" ,
+      
+        desc: {
+          comfort1: "Size and Layout: Larger camping cars generally offer more space and comfort, but they can be more challenging to maneuver and park. The layout of the interior also plays a crucial role in comfort. Well-designed layouts optimize space for living, sleeping, cooking, and storage. Maintaining a comfortable temperature inside the camping car is important, especially during extreme weather conditions. Climate control systems such as air conditioning and heating ensure that occupants can stay cool in hot weather and warm in cold weather",
+          cmfphoto: `${inside1}`,
+          comfort2: "Sleeping Arrangements: Comfortable sleeping arrangements are essential for a good night's rest. This may include comfortable mattresses, adjustable beds, and adequate bedding. Some camping cars offer various sleeping options, such as fold-out beds, bunk beds, or convertible dinettes.",
+          cmfphoto2: `${inside2}`,
+          comfort3: "Safety Features: Safety should always be a priority, so camping cars should be equipped with essential safety features such as smoke detectors, carbon monoxide detectors, fire extinguishers, and reliable locks on doors and windows",
+          cmfphoto3: `${inside3}`,
+          doors: "Cab Doors: In motorhomes or RVs built on truck or van chassis, there are typically doors leading from the living area into the cab where the driver and passenger seats are located. These doors allow easy access between the living space and the driving area.",
+          cmfphoto4: `${doors}`,
+          heating: "Propane Furnace: Many camping cars are equipped with propane furnaces that provide efficient heating. These furnaces use propane gas to produce heat, which is distributed throughout the vehicle via ducts and vents. They are often controlled by a thermostat, allowing you to set the desired temperature.",
+          heatphoto: `${heat}`,
+      }
       },
     },
     {
@@ -210,7 +386,21 @@ export const UsedCarCampcar = {
         people: "3인",
         date: "22년 03월",
         company: "영남캠핑카",
-        location: "경상권",
+         location: "수도권",
+        view: "234" ,
+      
+        desc: {
+          comfort1: "Size and Layout: Larger camping cars generally offer more space and comfort, but they can be more challenging to maneuver and park. The layout of the interior also plays a crucial role in comfort. Well-designed layouts optimize space for living, sleeping, cooking, and storage. Maintaining a comfortable temperature inside the camping car is important, especially during extreme weather conditions. Climate control systems such as air conditioning and heating ensure that occupants can stay cool in hot weather and warm in cold weather",
+          cmfphoto: `${inside1}`,
+          comfort2: "Sleeping Arrangements: Comfortable sleeping arrangements are essential for a good night's rest. This may include comfortable mattresses, adjustable beds, and adequate bedding. Some camping cars offer various sleeping options, such as fold-out beds, bunk beds, or convertible dinettes.",
+          cmfphoto2: `${inside2}`,
+          comfort3: "Safety Features: Safety should always be a priority, so camping cars should be equipped with essential safety features such as smoke detectors, carbon monoxide detectors, fire extinguishers, and reliable locks on doors and windows",
+          cmfphoto3: `${inside3}`,
+          doors: "Cab Doors: In motorhomes or RVs built on truck or van chassis, there are typically doors leading from the living area into the cab where the driver and passenger seats are located. These doors allow easy access between the living space and the driving area.",
+          cmfphoto4: `${doors}`,
+          heating: "Propane Furnace: Many camping cars are equipped with propane furnaces that provide efficient heating. These furnaces use propane gas to produce heat, which is distributed throughout the vehicle via ducts and vents. They are often controlled by a thermostat, allowing you to set the desired temperature.",
+          heatphoto: `${heat}`,
+      }
       },
     },
     {
@@ -224,7 +414,21 @@ export const UsedCarCampcar = {
         people: "3인",
         date: "22년 03월",
         company: "영남캠핑카",
-        location: "경상권",
+         location: "수도권",
+        view: "234" ,
+      
+        desc: {
+          comfort1: "Size and Layout: Larger camping cars generally offer more space and comfort, but they can be more challenging to maneuver and park. The layout of the interior also plays a crucial role in comfort. Well-designed layouts optimize space for living, sleeping, cooking, and storage. Maintaining a comfortable temperature inside the camping car is important, especially during extreme weather conditions. Climate control systems such as air conditioning and heating ensure that occupants can stay cool in hot weather and warm in cold weather",
+          cmfphoto: `${inside1}`,
+          comfort2: "Sleeping Arrangements: Comfortable sleeping arrangements are essential for a good night's rest. This may include comfortable mattresses, adjustable beds, and adequate bedding. Some camping cars offer various sleeping options, such as fold-out beds, bunk beds, or convertible dinettes.",
+          cmfphoto2: `${inside2}`,
+          comfort3: "Safety Features: Safety should always be a priority, so camping cars should be equipped with essential safety features such as smoke detectors, carbon monoxide detectors, fire extinguishers, and reliable locks on doors and windows",
+          cmfphoto3: `${inside3}`,
+          doors: "Cab Doors: In motorhomes or RVs built on truck or van chassis, there are typically doors leading from the living area into the cab where the driver and passenger seats are located. These doors allow easy access between the living space and the driving area.",
+          cmfphoto4: `${doors}`,
+          heating: "Propane Furnace: Many camping cars are equipped with propane furnaces that provide efficient heating. These furnaces use propane gas to produce heat, which is distributed throughout the vehicle via ducts and vents. They are often controlled by a thermostat, allowing you to set the desired temperature.",
+          heatphoto: `${heat}`,
+      }
       },
     },
     {
@@ -238,7 +442,21 @@ export const UsedCarCampcar = {
         people: "5인",
         date: "22년 03월",
         company: " 영남캠핑카",
-        location: "경상권",
+         location: "수도권",
+        view: "234" ,
+      
+        desc: {
+          comfort1: "Size and Layout: Larger camping cars generally offer more space and comfort, but they can be more challenging to maneuver and park. The layout of the interior also plays a crucial role in comfort. Well-designed layouts optimize space for living, sleeping, cooking, and storage. Maintaining a comfortable temperature inside the camping car is important, especially during extreme weather conditions. Climate control systems such as air conditioning and heating ensure that occupants can stay cool in hot weather and warm in cold weather",
+          cmfphoto: `${inside1}`,
+          comfort2: "Sleeping Arrangements: Comfortable sleeping arrangements are essential for a good night's rest. This may include comfortable mattresses, adjustable beds, and adequate bedding. Some camping cars offer various sleeping options, such as fold-out beds, bunk beds, or convertible dinettes.",
+          cmfphoto2: `${inside2}`,
+          comfort3: "Safety Features: Safety should always be a priority, so camping cars should be equipped with essential safety features such as smoke detectors, carbon monoxide detectors, fire extinguishers, and reliable locks on doors and windows",
+          cmfphoto3: `${inside3}`,
+          doors: "Cab Doors: In motorhomes or RVs built on truck or van chassis, there are typically doors leading from the living area into the cab where the driver and passenger seats are located. These doors allow easy access between the living space and the driving area.",
+          cmfphoto4: `${doors}`,
+          heating: "Propane Furnace: Many camping cars are equipped with propane furnaces that provide efficient heating. These furnaces use propane gas to produce heat, which is distributed throughout the vehicle via ducts and vents. They are often controlled by a thermostat, allowing you to set the desired temperature.",
+          heatphoto: `${heat}`,
+      }
       },
     },
     {
@@ -252,7 +470,21 @@ export const UsedCarCampcar = {
         people: "5인",
         date: "22년 03월",
         company: "영남캠핑카",
-        location: "경상권",
+         location: "수도권",
+        view: "234" ,
+      
+        desc: {
+          comfort1: "Size and Layout: Larger camping cars generally offer more space and comfort, but they can be more challenging to maneuver and park. The layout of the interior also plays a crucial role in comfort. Well-designed layouts optimize space for living, sleeping, cooking, and storage. Maintaining a comfortable temperature inside the camping car is important, especially during extreme weather conditions. Climate control systems such as air conditioning and heating ensure that occupants can stay cool in hot weather and warm in cold weather",
+          cmfphoto: `${inside1}`,
+          comfort2: "Sleeping Arrangements: Comfortable sleeping arrangements are essential for a good night's rest. This may include comfortable mattresses, adjustable beds, and adequate bedding. Some camping cars offer various sleeping options, such as fold-out beds, bunk beds, or convertible dinettes.",
+          cmfphoto2: `${inside2}`,
+          comfort3: "Safety Features: Safety should always be a priority, so camping cars should be equipped with essential safety features such as smoke detectors, carbon monoxide detectors, fire extinguishers, and reliable locks on doors and windows",
+          cmfphoto3: `${inside3}`,
+          doors: "Cab Doors: In motorhomes or RVs built on truck or van chassis, there are typically doors leading from the living area into the cab where the driver and passenger seats are located. These doors allow easy access between the living space and the driving area.",
+          cmfphoto4: `${doors}`,
+          heating: "Propane Furnace: Many camping cars are equipped with propane furnaces that provide efficient heating. These furnaces use propane gas to produce heat, which is distributed throughout the vehicle via ducts and vents. They are often controlled by a thermostat, allowing you to set the desired temperature.",
+          heatphoto: `${heat}`,
+      }
       },
     },
     {
@@ -266,7 +498,21 @@ export const UsedCarCampcar = {
         people: "3인",
         date: "22년 03월",
         company: "영남캠핑카",
-        location: "경상권",
+         location: "수도권",
+        view: "234" ,
+      
+        desc: {
+          comfort1: "Size and Layout: Larger camping cars generally offer more space and comfort, but they can be more challenging to maneuver and park. The layout of the interior also plays a crucial role in comfort. Well-designed layouts optimize space for living, sleeping, cooking, and storage. Maintaining a comfortable temperature inside the camping car is important, especially during extreme weather conditions. Climate control systems such as air conditioning and heating ensure that occupants can stay cool in hot weather and warm in cold weather",
+          cmfphoto: `${inside1}`,
+          comfort2: "Sleeping Arrangements: Comfortable sleeping arrangements are essential for a good night's rest. This may include comfortable mattresses, adjustable beds, and adequate bedding. Some camping cars offer various sleeping options, such as fold-out beds, bunk beds, or convertible dinettes.",
+          cmfphoto2: `${inside2}`,
+          comfort3: "Safety Features: Safety should always be a priority, so camping cars should be equipped with essential safety features such as smoke detectors, carbon monoxide detectors, fire extinguishers, and reliable locks on doors and windows",
+          cmfphoto3: `${inside3}`,
+          doors: "Cab Doors: In motorhomes or RVs built on truck or van chassis, there are typically doors leading from the living area into the cab where the driver and passenger seats are located. These doors allow easy access between the living space and the driving area.",
+          cmfphoto4: `${doors}`,
+          heating: "Propane Furnace: Many camping cars are equipped with propane furnaces that provide efficient heating. These furnaces use propane gas to produce heat, which is distributed throughout the vehicle via ducts and vents. They are often controlled by a thermostat, allowing you to set the desired temperature.",
+          heatphoto: `${heat}`,
+      }
       },
     },
     {
@@ -280,7 +526,21 @@ export const UsedCarCampcar = {
         people: "3인",
         date: "22년 03월",
         company: "영남캠핑카",
-        location: "경상권",
+         location: "수도권",
+        view: "234" ,
+      
+        desc: {
+          comfort1: "Size and Layout: Larger camping cars generally offer more space and comfort, but they can be more challenging to maneuver and park. The layout of the interior also plays a crucial role in comfort. Well-designed layouts optimize space for living, sleeping, cooking, and storage. Maintaining a comfortable temperature inside the camping car is important, especially during extreme weather conditions. Climate control systems such as air conditioning and heating ensure that occupants can stay cool in hot weather and warm in cold weather",
+          cmfphoto: `${inside1}`,
+          comfort2: "Sleeping Arrangements: Comfortable sleeping arrangements are essential for a good night's rest. This may include comfortable mattresses, adjustable beds, and adequate bedding. Some camping cars offer various sleeping options, such as fold-out beds, bunk beds, or convertible dinettes.",
+          cmfphoto2: `${inside2}`,
+          comfort3: "Safety Features: Safety should always be a priority, so camping cars should be equipped with essential safety features such as smoke detectors, carbon monoxide detectors, fire extinguishers, and reliable locks on doors and windows",
+          cmfphoto3: `${inside3}`,
+          doors: "Cab Doors: In motorhomes or RVs built on truck or van chassis, there are typically doors leading from the living area into the cab where the driver and passenger seats are located. These doors allow easy access between the living space and the driving area.",
+          cmfphoto4: `${doors}`,
+          heating: "Propane Furnace: Many camping cars are equipped with propane furnaces that provide efficient heating. These furnaces use propane gas to produce heat, which is distributed throughout the vehicle via ducts and vents. They are often controlled by a thermostat, allowing you to set the desired temperature.",
+          heatphoto: `${heat}`,
+      }
       },
     },
     {
@@ -294,7 +554,21 @@ export const UsedCarCampcar = {
         people: " 6인",
         date: "22년 03월",
         company: "한울캠핑카",
-        location: "경상권",
+         location: "수도권",
+        view: "234" ,
+      
+        desc: {
+          comfort1: "Size and Layout: Larger camping cars generally offer more space and comfort, but they can be more challenging to maneuver and park. The layout of the interior also plays a crucial role in comfort. Well-designed layouts optimize space for living, sleeping, cooking, and storage. Maintaining a comfortable temperature inside the camping car is important, especially during extreme weather conditions. Climate control systems such as air conditioning and heating ensure that occupants can stay cool in hot weather and warm in cold weather",
+          cmfphoto: `${inside1}`,
+          comfort2: "Sleeping Arrangements: Comfortable sleeping arrangements are essential for a good night's rest. This may include comfortable mattresses, adjustable beds, and adequate bedding. Some camping cars offer various sleeping options, such as fold-out beds, bunk beds, or convertible dinettes.",
+          cmfphoto2: `${inside2}`,
+          comfort3: "Safety Features: Safety should always be a priority, so camping cars should be equipped with essential safety features such as smoke detectors, carbon monoxide detectors, fire extinguishers, and reliable locks on doors and windows",
+          cmfphoto3: `${inside3}`,
+          doors: "Cab Doors: In motorhomes or RVs built on truck or van chassis, there are typically doors leading from the living area into the cab where the driver and passenger seats are located. These doors allow easy access between the living space and the driving area.",
+          cmfphoto4: `${doors}`,
+          heating: "Propane Furnace: Many camping cars are equipped with propane furnaces that provide efficient heating. These furnaces use propane gas to produce heat, which is distributed throughout the vehicle via ducts and vents. They are often controlled by a thermostat, allowing you to set the desired temperature.",
+          heatphoto: `${heat}`,
+      }
       },
     },
     {
@@ -308,7 +582,21 @@ export const UsedCarCampcar = {
         people: "5인",
         date: "22년 03월",
         company: "한울캠핑카",
-        location: "경상권",
+         location: "수도권",
+        view: "234" ,
+      
+        desc: {
+          comfort1: "Size and Layout: Larger camping cars generally offer more space and comfort, but they can be more challenging to maneuver and park. The layout of the interior also plays a crucial role in comfort. Well-designed layouts optimize space for living, sleeping, cooking, and storage. Maintaining a comfortable temperature inside the camping car is important, especially during extreme weather conditions. Climate control systems such as air conditioning and heating ensure that occupants can stay cool in hot weather and warm in cold weather",
+          cmfphoto: `${inside1}`,
+          comfort2: "Sleeping Arrangements: Comfortable sleeping arrangements are essential for a good night's rest. This may include comfortable mattresses, adjustable beds, and adequate bedding. Some camping cars offer various sleeping options, such as fold-out beds, bunk beds, or convertible dinettes.",
+          cmfphoto2: `${inside2}`,
+          comfort3: "Safety Features: Safety should always be a priority, so camping cars should be equipped with essential safety features such as smoke detectors, carbon monoxide detectors, fire extinguishers, and reliable locks on doors and windows",
+          cmfphoto3: `${inside3}`,
+          doors: "Cab Doors: In motorhomes or RVs built on truck or van chassis, there are typically doors leading from the living area into the cab where the driver and passenger seats are located. These doors allow easy access between the living space and the driving area.",
+          cmfphoto4: `${doors}`,
+          heating: "Propane Furnace: Many camping cars are equipped with propane furnaces that provide efficient heating. These furnaces use propane gas to produce heat, which is distributed throughout the vehicle via ducts and vents. They are often controlled by a thermostat, allowing you to set the desired temperature.",
+          heatphoto: `${heat}`,
+      }
       },
     },
     {
@@ -322,7 +610,21 @@ export const UsedCarCampcar = {
         people: "3인",
         date: "22년 03월",
         company: "한울캠핑카",
-        location: "경상권",
+         location: "수도권",
+        view: "234" ,
+      
+        desc: {
+          comfort1: "Size and Layout: Larger camping cars generally offer more space and comfort, but they can be more challenging to maneuver and park. The layout of the interior also plays a crucial role in comfort. Well-designed layouts optimize space for living, sleeping, cooking, and storage. Maintaining a comfortable temperature inside the camping car is important, especially during extreme weather conditions. Climate control systems such as air conditioning and heating ensure that occupants can stay cool in hot weather and warm in cold weather",
+          cmfphoto: `${inside1}`,
+          comfort2: "Sleeping Arrangements: Comfortable sleeping arrangements are essential for a good night's rest. This may include comfortable mattresses, adjustable beds, and adequate bedding. Some camping cars offer various sleeping options, such as fold-out beds, bunk beds, or convertible dinettes.",
+          cmfphoto2: `${inside2}`,
+          comfort3: "Safety Features: Safety should always be a priority, so camping cars should be equipped with essential safety features such as smoke detectors, carbon monoxide detectors, fire extinguishers, and reliable locks on doors and windows",
+          cmfphoto3: `${inside3}`,
+          doors: "Cab Doors: In motorhomes or RVs built on truck or van chassis, there are typically doors leading from the living area into the cab where the driver and passenger seats are located. These doors allow easy access between the living space and the driving area.",
+          cmfphoto4: `${doors}`,
+          heating: "Propane Furnace: Many camping cars are equipped with propane furnaces that provide efficient heating. These furnaces use propane gas to produce heat, which is distributed throughout the vehicle via ducts and vents. They are often controlled by a thermostat, allowing you to set the desired temperature.",
+          heatphoto: `${heat}`,
+      }
       },
     },
     {
@@ -336,7 +638,21 @@ export const UsedCarCampcar = {
         people: "5인",
         date: "22년 03월",
         company: "한울캠핑카",
-        location: "경상권",
+         location: "수도권",
+        view: "234" ,
+      
+        desc: {
+          comfort1: "Size and Layout: Larger camping cars generally offer more space and comfort, but they can be more challenging to maneuver and park. The layout of the interior also plays a crucial role in comfort. Well-designed layouts optimize space for living, sleeping, cooking, and storage. Maintaining a comfortable temperature inside the camping car is important, especially during extreme weather conditions. Climate control systems such as air conditioning and heating ensure that occupants can stay cool in hot weather and warm in cold weather",
+          cmfphoto: `${inside1}`,
+          comfort2: "Sleeping Arrangements: Comfortable sleeping arrangements are essential for a good night's rest. This may include comfortable mattresses, adjustable beds, and adequate bedding. Some camping cars offer various sleeping options, such as fold-out beds, bunk beds, or convertible dinettes.",
+          cmfphoto2: `${inside2}`,
+          comfort3: "Safety Features: Safety should always be a priority, so camping cars should be equipped with essential safety features such as smoke detectors, carbon monoxide detectors, fire extinguishers, and reliable locks on doors and windows",
+          cmfphoto3: `${inside3}`,
+          doors: "Cab Doors: In motorhomes or RVs built on truck or van chassis, there are typically doors leading from the living area into the cab where the driver and passenger seats are located. These doors allow easy access between the living space and the driving area.",
+          cmfphoto4: `${doors}`,
+          heating: "Propane Furnace: Many camping cars are equipped with propane furnaces that provide efficient heating. These furnaces use propane gas to produce heat, which is distributed throughout the vehicle via ducts and vents. They are often controlled by a thermostat, allowing you to set the desired temperature.",
+          heatphoto: `${heat}`,
+      }
       },
     },
     {
@@ -350,7 +666,21 @@ export const UsedCarCampcar = {
         people: "6인",
         date: "22년 03월",
         company: "한울캠핑카",
-        location: "경상권",
+         location: "수도권",
+        view: "234" ,
+      
+        desc: {
+          comfort1: "Size and Layout: Larger camping cars generally offer more space and comfort, but they can be more challenging to maneuver and park. The layout of the interior also plays a crucial role in comfort. Well-designed layouts optimize space for living, sleeping, cooking, and storage. Maintaining a comfortable temperature inside the camping car is important, especially during extreme weather conditions. Climate control systems such as air conditioning and heating ensure that occupants can stay cool in hot weather and warm in cold weather",
+          cmfphoto: `${inside1}`,
+          comfort2: "Sleeping Arrangements: Comfortable sleeping arrangements are essential for a good night's rest. This may include comfortable mattresses, adjustable beds, and adequate bedding. Some camping cars offer various sleeping options, such as fold-out beds, bunk beds, or convertible dinettes.",
+          cmfphoto2: `${inside2}`,
+          comfort3: "Safety Features: Safety should always be a priority, so camping cars should be equipped with essential safety features such as smoke detectors, carbon monoxide detectors, fire extinguishers, and reliable locks on doors and windows",
+          cmfphoto3: `${inside3}`,
+          doors: "Cab Doors: In motorhomes or RVs built on truck or van chassis, there are typically doors leading from the living area into the cab where the driver and passenger seats are located. These doors allow easy access between the living space and the driving area.",
+          cmfphoto4: `${doors}`,
+          heating: "Propane Furnace: Many camping cars are equipped with propane furnaces that provide efficient heating. These furnaces use propane gas to produce heat, which is distributed throughout the vehicle via ducts and vents. They are often controlled by a thermostat, allowing you to set the desired temperature.",
+          heatphoto: `${heat}`,
+      }
       },
     },
     {
@@ -364,7 +694,21 @@ export const UsedCarCampcar = {
         people: "5인",
         date: "22년 03월",
         company: "훼미리캠핑카",
-        location: "경상권",
+         location: "수도권",
+        view: "234" ,
+      
+        desc: {
+          comfort1: "Size and Layout: Larger camping cars generally offer more space and comfort, but they can be more challenging to maneuver and park. The layout of the interior also plays a crucial role in comfort. Well-designed layouts optimize space for living, sleeping, cooking, and storage. Maintaining a comfortable temperature inside the camping car is important, especially during extreme weather conditions. Climate control systems such as air conditioning and heating ensure that occupants can stay cool in hot weather and warm in cold weather",
+          cmfphoto: `${inside1}`,
+          comfort2: "Sleeping Arrangements: Comfortable sleeping arrangements are essential for a good night's rest. This may include comfortable mattresses, adjustable beds, and adequate bedding. Some camping cars offer various sleeping options, such as fold-out beds, bunk beds, or convertible dinettes.",
+          cmfphoto2: `${inside2}`,
+          comfort3: "Safety Features: Safety should always be a priority, so camping cars should be equipped with essential safety features such as smoke detectors, carbon monoxide detectors, fire extinguishers, and reliable locks on doors and windows",
+          cmfphoto3: `${inside3}`,
+          doors: "Cab Doors: In motorhomes or RVs built on truck or van chassis, there are typically doors leading from the living area into the cab where the driver and passenger seats are located. These doors allow easy access between the living space and the driving area.",
+          cmfphoto4: `${doors}`,
+          heating: "Propane Furnace: Many camping cars are equipped with propane furnaces that provide efficient heating. These furnaces use propane gas to produce heat, which is distributed throughout the vehicle via ducts and vents. They are often controlled by a thermostat, allowing you to set the desired temperature.",
+          heatphoto: `${heat}`,
+      }
       },
     },
 ],

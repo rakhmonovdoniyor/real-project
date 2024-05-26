@@ -1,8 +1,8 @@
 import styled from "styled-components";
 import backrasm from "../../assets/wp10195013.jpg"
 import tooning from "../../assets/image.png"
-import rooms from "../../assets/wp10195013.jpg"
-import usedcars from "../../assets/wp10195013.jpg"
+import rooms from "../../assets/campingplace/image.png"
+import usedcars from "../../assets/campingplace/image.png"
 
 export const BgWrap=styled.div`
 background-image: ${(props) => {
@@ -12,10 +12,10 @@ background-image: ${(props) => {
     } else if (props.$tuning) {
       return `url(${tooning})`;
 
-    } else if (props.$tuning) {
+    } else if (props.$campplace) {
       return `url(${rooms}})`;
 
-    } else if (props.$usedcar) {
+    } else if (props.$campplace) {
       return `url(${usedcars}})`;
 
     } else {

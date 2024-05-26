@@ -1,51 +1,53 @@
 import React from 'react'
-import { BgWrap} from '../components/homeFilter/styled'
-import { BigCon, Carphoto, Container, Data, Data1, Data2, DetailCom , DataWrapperbox, Linestyle, CarCost, ItemOneLine , TextStylep, TextStylep1, ComfortText, ComfortPhoto, ComWrapper, PWRap, DetailButton, BTnWrap} from './style'
+import { BgWrap} from '../components/usedcar/style'
+import { Carphoto, Container, Data, Data1, Data2, DetailCom , DataWrapperbox, Linestyle, CarCost, ItemOneLine , TextStylep, TextStylep1, ComfortText, ComfortPhoto, ComWrapper, PWRap, DetailButton, BTnWrap} from './style'
 import { useParams } from 'react-router-dom'
-import { Campcar } from '../components/mock/mosckdata'
 import BasicTabs from './tabs/tab'
+import { TuningCampcar } from '../components/tuning/mockdatatuning'
 
-export const Detail = () => {
+export const TuningDetail = () => {
   const { id } = useParams() ;
-  const resultdata = Campcar.maindata.find(
+  // console.log(Campcar);
+  // console.log(parseInt (id));
+  // const resultdata = Campcar.maindata(id) === parseInt(id)  ;
+  const resultdata = TuningCampcar.maindata.find(
   (value) => value.id === parseInt(id));
   console.log(resultdata);
-  // console.log(resultdata.id)
   return (
-    <div >
+    <div>
       
-        <BgWrap $home >
+        <BgWrap $tuning >
         
           <h1>{resultdata.car.name}</h1> <br /> <br />
           <DetailCom>
             <BTnWrap>
-          <DetailButton>ADD TO CART</DetailButton>
-          <DetailButton>COMPARE</DetailButton>
+          <DetailButton >ADD TO CART</DetailButton>
+          <DetailButton >COMPARE</DetailButton>
           </BTnWrap>
           </DetailCom>
           
         </BgWrap>
 
-        <BigCon>
+
         <Container>
 
         
         <Carphoto>
-        <img src= {resultdata.car.photo || "no data"}  alt="id1" />
+        <img src= {resultdata.car.photo}  alt="id1" />
         </Carphoto>
 
         <Data>
           <DataWrapperbox>
            <Data1>
-            <h1> {resultdata.car.name  || "no data"}</h1>
+            <h1> {resultdata.car.name}</h1>
                <CarCost $cost> {resultdata.car.cost}</CarCost>
 
            </Data1>
            <Linestyle/>
            <Data2>
-            <ItemOneLine><TextStylep1>Company </TextStylep1> <TextStylep> {resultdata.car.company  || "no data"}</TextStylep></ItemOneLine>
-            <ItemOneLine><TextStylep1>People </TextStylep1> <TextStylep> {resultdata.car.people  || "no data"} </TextStylep></ItemOneLine>
-            <ItemOneLine><TextStylep1>License type </TextStylep1> <TextStylep> {resultdata.car.license  || "no data"} </TextStylep></ItemOneLine>
+            <ItemOneLine><TextStylep1>Company </TextStylep1> <TextStylep> {resultdata.car.company}</TextStylep></ItemOneLine>
+            <ItemOneLine><TextStylep1>People </TextStylep1> <TextStylep> {resultdata.car.people} </TextStylep></ItemOneLine>
+            <ItemOneLine><TextStylep1>License type </TextStylep1> <TextStylep> {resultdata.car.license} </TextStylep></ItemOneLine>
             
                 </Data2>
                 </DataWrapperbox>
@@ -63,16 +65,16 @@ export const Detail = () => {
             </PWRap>
            
           </ComfortText>
-          <ComfortPhoto><img src={resultdata.car.desc.cmfphoto  || "no data"} alt="idphoto" /></ComfortPhoto>
+          <ComfortPhoto><img src={resultdata.car.desc.cmfphoto} alt="idphoto" /></ComfortPhoto>
           </ComWrapper>
 
 
           <ComWrapper>
-          <ComfortPhoto><img src={resultdata.car.desc.cmfphoto2  || "no data"} alt="idphoto" /></ComfortPhoto>
+          <ComfortPhoto><img src={resultdata.car.desc.cmfphoto2} alt="idphoto" /></ComfortPhoto>
           <ComfortText>
             <h1>Tidying away is child’s play!</h1>
             <PWRap>
-            <p>{resultdata.car.desc.comfort2  || "no data"}</p>
+            <p>{resultdata.car.desc.comfort2}</p>
             </PWRap>
            
           </ComfortText>
@@ -82,20 +84,20 @@ export const Detail = () => {
           <ComfortText>
             <h1>Ventilated , Lit up</h1>
             <PWRap>
-            <p>{resultdata.car.desc.comfort3  || "no data"}</p>
+            <p>{resultdata.car.desc.comfort3}</p>
             </PWRap>
            
           </ComfortText>
-          <ComfortPhoto><img src={resultdata.car.desc.cmfphoto3  || "no data"} alt="idphoto" /></ComfortPhoto>
+          <ComfortPhoto><img src={resultdata.car.desc.cmfphoto3} alt="idphoto" /></ComfortPhoto>
           </ComWrapper>
 
 
           <ComWrapper>
-          <ComfortPhoto><img src={resultdata.car.desc.cmfphoto4  || "no data"} alt="idphoto" /></ComfortPhoto>
+          <ComfortPhoto><img src={resultdata.car.desc.cmfphoto4} alt="idphoto" /></ComfortPhoto>
           <ComfortText>
             <h1>Easy access</h1>
             <PWRap>
-            <p>{resultdata.car.desc.doors  || "no data"}</p>
+            <p>{resultdata.car.desc.doors}</p>
             </PWRap>
            
           </ComfortText>
@@ -108,8 +110,8 @@ export const Detail = () => {
             <PWRap>
             <p>{resultdata.car.desc.heating}</p>
             <BTnWrap>
-            <DetailButton $blue>ADD TO CART</DetailButton>
-            <DetailButton $blue>COMPARE</DetailButton>
+            <DetailButton>ADD TO CART</DetailButton>
+            <DetailButton>COMPARE</DetailButton>
             </BTnWrap>
             
             </PWRap>
@@ -120,11 +122,6 @@ export const Detail = () => {
 
 
         <BasicTabs/>
-
-
-
-
-        </BigCon>
 
 
         

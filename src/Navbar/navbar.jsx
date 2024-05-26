@@ -4,6 +4,8 @@ import img2 from "../assets/bx_bxs-user.png"
 import img3 from "../assets/clarity_shopping-cart-solid.png"
 // import { Link } from 'react-router-dom'
 import { Container, Container4, LogoWrapper, NavDisplay, NavLink, NavMiddle } from './navbar11'
+import PopUp from '../popup/inex'
+import { Login } from '../Signin/login'
 // import { HomeCom } from '../components/home'
 
 export const Navbar = () => {
@@ -40,7 +42,9 @@ export const Navbar = () => {
             
         </NavMiddle>
         <Container4>
-            <img src={img2} alt="logo-shop" />
+          <Login>
+            <img src={img2} alt="logo-sign" />
+            </Login>
             <img src={img3} alt="logo-shop2" />
             <p>Eng</p>
         </Container4>

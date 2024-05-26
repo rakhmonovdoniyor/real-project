@@ -1,11 +1,18 @@
 import styled from "styled-components";
-
+export const BigCon = styled.div`
+width: 1512px;
+border: 1px solid red;
+/* display: flex;
+justify-content: center;
+align-items: center; */
+` 
 export const DetailCom =styled.div`
 display: flex;
 `
 
 export const Container = styled.div`
 display: flex;
+padding-top: 20px;
 
 `
 export const Carphoto = styled.div`
@@ -123,6 +130,12 @@ img{
 export const BTnWrap= styled.div`
 display: flex;
 padding: 50px 0;
+
+:hover {
+    color: white;
+    background-color: #006dab;
+   
+  }
 /* justify-content: space-evenly; */
 `
 
@@ -130,9 +143,9 @@ export const DetailButton = styled.button`
 width: 180px;
 height: 50px;
 border-radius: 10px;
-background: #FAFAFA;
+/* background: #FAFAFA; */
 cursor: pointer;
-color:  #006DAB;
+color:  ${(props) => (props.$blue ? "#006dab" : "white")};
 font-family: Montserrat;
 font-size: 16px;
 font-style: normal;
@@ -141,10 +154,14 @@ line-height: normal;
 background-color: transparent;
 margin-right: 10px;
 border-radius: 10px;
-border: 2px solid #006DAB;
-:hover {
+border:  ${(props) => (props.$blue ? " 2px solid #006dab" : "2px solid white")};
+  :hover {
+    color: ${(props) => (props.$blue ? "white" : "#006dab")};
+    background-color: #006dab;
+   border: none;
+  }
    
 /* background-color: var(--blue, #006DAB); */
 /* background-color: transparent; */
-}
+
 `

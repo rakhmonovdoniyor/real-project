@@ -5,7 +5,7 @@ import { useParams } from 'react-router-dom'
 import BasicTabs from './tabs/tab'
 import { CaravanCampcar } from '../components/caravan/mockdata'
 
-export const Detail = () => {
+export const CaravanDetail = () => {
   const { id } = useParams() ;
   // console.log(Campcar);
   // console.log(parseInt (id));
@@ -16,12 +16,14 @@ export const Detail = () => {
   return (
     <div>
       
-        <BgWrap $aidal >
+        <BgWrap $caravan >
         
-          <h1>Aidal</h1> <br /> <br />
+          <h1>{resultdata.car.name}</h1> <br /> <br />
           <DetailCom>
+            <BTnWrap>
           <DetailButton>ADD TO CART</DetailButton>
           <DetailButton>COMPARE</DetailButton>
+          </BTnWrap>
           </DetailCom>
           
         </BgWrap>
@@ -70,7 +72,7 @@ export const Detail = () => {
           <ComWrapper>
           <ComfortPhoto><img src={resultdata.car.desc.cmfphoto2} alt="idphoto" /></ComfortPhoto>
           <ComfortText>
-            <h1>Comfort</h1>
+            <h1>Tidying away is child’s play!</h1>
             <PWRap>
             <p>{resultdata.car.desc.comfort2}</p>
             </PWRap>
@@ -80,7 +82,7 @@ export const Detail = () => {
 
           <ComWrapper>
           <ComfortText>
-            <h1>Comfort</h1>
+            <h1>Ventilated , Lit up</h1>
             <PWRap>
             <p>{resultdata.car.desc.comfort3}</p>
             </PWRap>
@@ -93,7 +95,7 @@ export const Detail = () => {
           <ComWrapper>
           <ComfortPhoto><img src={resultdata.car.desc.cmfphoto4} alt="idphoto" /></ComfortPhoto>
           <ComfortText>
-            <h1>Comfort</h1>
+            <h1>Easy access</h1>
             <PWRap>
             <p>{resultdata.car.desc.doors}</p>
             </PWRap>
@@ -104,7 +106,7 @@ export const Detail = () => {
 
           <ComWrapper>
           <ComfortText>
-            <h1>Comfort</h1>
+            <h1>Heating when driving</h1>
             <PWRap>
             <p>{resultdata.car.desc.heating}</p>
             <BTnWrap>

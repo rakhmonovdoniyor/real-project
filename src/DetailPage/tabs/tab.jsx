@@ -6,13 +6,15 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import yarimta from "../../assets/camp id/yarimta.png"
 import map from "../../assets/camp id/Screenshot_1 1.png"
-import { Campcar } from '../data';
+import { Campcar } from '../../components/mock/mosckdata';
 import { useParams } from 'react-router-dom';
 
-import { CenterDiv, First , Container, EndDiv, Column1, FarLIne , Smallp, Line1, Premium, Input, TwoWrap, ContactWrap, Karta, KartaRasm, InputTwo, InputWrap} from './tabstyle';
+import { CenterDiv, First , Container, EndDiv, Column1, FarLIne , Smallp, Line1, Premium, Input, TwoWrap, ContactWrap, Karta, KartaRasm, InputTwo, InputWrap, BtnHover} from './tabstyle';
 import AccordionUsage from './FAQ';
 import { Box1,  BoxWRapper,  Line707,  } from './q$aStyle';
 import { Inputs } from './inputs';
+import MultipleSelect from './input';
+import HomeComponent from '../../popup/kakaomap';
 
 const data = Campcar.maindata;
   const dataLength = data.length;
@@ -74,10 +76,12 @@ export default function BasicTabs() {
     <Box sx={{ width: '100%' }}>
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
         <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
-          <Tab label="Item review" {...a11yProps(0)} />
+       
+         <Tab label="Item review" {...a11yProps(0)} />
           <Tab label="Q&A" {...a11yProps(1)} /> 
           <Tab label="FAQ" {...a11yProps(2)} />
           <Tab label="Contact" {...a11yProps(3)} />
+         
         </Tabs>
       </Box>
       <CustomTabPanel value={value} index={0}>
@@ -89,7 +93,8 @@ export default function BasicTabs() {
             <h2 style={{ color:" #006dab"}}>{dataLength}</h2>
             </Column1>
             <EndDiv>
-                <Input type="select" />
+                {/* <Input type="select" /> */}
+                <MultipleSelect/>
             </EndDiv>
             </CenterDiv>
         </Container>
@@ -336,7 +341,7 @@ export default function BasicTabs() {
         <ContactWrap>
             <Karta>
                 <KartaRasm>
-                <img src={map} alt="dkjf" />
+                <HomeComponent/>
                 </KartaRasm>
                 <InputWrap>
                 <InputTwo type="text"/>

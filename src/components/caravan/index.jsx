@@ -4,6 +4,7 @@ import { BtnWrap, Button, CarWrap, CardWrap, StarWrap, StarWrap2 } from "../home
 import star from "../../assets/bx_bxs-star.png"
 import { CaravanCampcar } from "./mockdata";
 import { Link } from "react-router-dom";
+// import { CaravanDetail } from "../../DetailPage/caravandetail";
 
 export const HMenu = () => {
   const data = CaravanCampcar.maindata;
@@ -35,6 +36,8 @@ export const HMenu = () => {
                     
 
                 </CarWrap>
+
+                
                 </Link>
             );
             })}
